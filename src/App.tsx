@@ -1,4 +1,4 @@
-import FamilyTree from "./components/FamilyTree.jsx";
+import FamilyTree from "./components/FamilyTree.js";
 
 function App() {
   return <FamilyTree />;
