@@ -1,10 +1,4 @@
 ID,First name,Last name,Birthday,Gender,Avatar,Father ID,Mother ID,Spouse ID
-1,GGG Grandpa,OU,1874,M,,,,
-2,GGG Grandma,NAY,1880,F,,,,
-3,GGG Grandpa,CHHE,1875,M,,,,
-4,GGG Grandma,SIP,1880,F,,,,
-5,Tong,OU,1990,M,,1,2,
-6,Chhin,CHHE,1907,F,,3,4,
 7,Simmith,OU,,F,,5,6,
 8,Hok Chiv,LIM,,M,,,,
 9,Nary,LIM,20/04/1954,F,,8,7,
