@@ -7,6 +7,7 @@ type Row = {
   Avatar: string;
   "Father ID": string;
   "Mother ID": string;
+  "Spouse ID": string;
 };
 
 export const transformCsvToD3Data = (csvData: Row[]) => {
@@ -131,6 +132,7 @@ export const transformCsvToD3Data = (csvData: Row[]) => {
         .map((row) =>
           row["Mother ID"] === id ? row["Father ID"] : row["Mother ID"]
         )
+        .concat(row["Spouse ID"])
         .filter((id, index, self) => id && self.indexOf(id) === index),
       father: csvData.some((row) => row.ID === fatherId) ? fatherId : null,
       mother: csvData.some((row) => row.ID === motherId) ? motherId : null,

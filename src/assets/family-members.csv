@@ -1,59 +1,73 @@
-ID,First name,Last name,Gender,Avatar,Father ID,Mother ID
-7,Simmith,OU,F,,5,6
-8,Hok Chiv,LIM,M,,,
-9,Nary,LIM,F,,8,7
-10,Pon,OU,M,,,
-11,Monico,TAING-OU,F,,10,9
-12,Linnaro,HAK,M,,,
-13,Malina Sophea,HAK,F,,12,11
-14,Dominic Roomny,HAK,M,,12,11
-15,Dino,TAING-OU,M,,10,9
-16,Sokhim,THOU,F,,,
-17,Jonathan Veasna,OU,M,,15,16
-18,Tyrese Vuthy,OU,M,,15,16
-19,Ponnorraks,OU,M,,10,9
-20,Anna,HUYNH,F,,,
-21,Ariyan Van,OU,M,,19,20
-22,Arrow Seth,OU,M,,19,20
-23,Narith,LIM,F,,8,7
-24,Sokhom,SVAY,M,,,
-25,Marra,LIM,M,,23,24
-26,Riana,,F,,,
-27,Bryson Kuch,LIM,M,,25,26
-28,Alyce,LIM,F,,23,24
-29,Sophia,LIM,F,,23,24
-30,Narong,LIM,M,,8,7
-31,Phy Ly,YIN,F,,,
-32,Emily Sonita,LIM,F,,30,31
-33,Jaime,,M,,,
-34,Claire,,F,,33,32
-35,Zoe,,F,,33,32
-36,Steven Emeron,LIM,M,,30,31
-37,Aimee,VO,F,,,
-38,Patrick Derrek,LIM,M,,30,31
-39,Phary,LIM,F,,8,7
-40,Sambath,KHUM,M,,,
-41,Paul,KHUM,M,,40,39
-42,Wylina,KHUM,F,,40,39
-43,Chloe Anh,DUONG,F,,,
-44,William,KHUM,M,,40,39
-45,Amy,KHUM,F,,40,39
-46,Samedi,LIM,F,,8,7
-47,Chamroeun Peng Lim,SO,M,,,
-48,Erica Sarika,SO,F,,47,46
-49,Eric,LU,M,,,
-50,Elijah,LU,M,,49,48
-51,Everly,LU,F,,49,48
-52,Victerry,SO,M,,47,46
-53,Jeudi,LIM-SON,F,,8,7
-54,Lanh,SON,M,,,
-55,Khemarint,SON,M,,54,53
-56,Boisan,LAM,F,,,
-57,Celeste,,F,,,
-58,Amanda,SON,F,,54,53
-59,Zack,,M,,,
-60,Zara,,F,,59,58
-61,Thary,LIM,F,,8,7
-62,Proeung Lip,UNG,M,,,
-63,Belinda,UNG,F,,62,61
-64,Melanie,UNG,F,,62,61
+ID,First name,Last name,Birthday,Gender,Avatar,Father ID,Mother ID,Spouse ID
+1,GGG Grandpa,OU,1874,M,,,,
+2,GGG Grandma,NAY,1880,F,,,,
+3,GGG Grandpa,CHHE,1875,M,,,,
+4,GGG Grandma,SIP,1880,F,,,,
+5,Tong,OU,1990,M,,1,2,
+6,Chhin,CHHE,1907,F,,3,4,
+7,Simmith,OU,,F,,5,6,
+8,Hok Chiv,LIM,,M,,,,
+9,Nary,LIM,20/04/1954,F,,8,7,
+10,Pon,OU,02/01/1944,M,,,,
+11,Monico,TAING-OU,11/12/1971,F,,10,9,
+12,Linnaro,HAK,29/05/1964,M,,,,
+13,Malina Sophea,HAK,11/12/2000,F,,12,11,
+14,Dominic Roomny,HAK,12/01/2004,M,,12,11,
+15,Dino,TAING-OU,11/08/1975,M,,10,9,
+16,Sokhim,THOU,05/05/1979,F,,,,
+17,Jonathan Veasna,OU,15/09/2004,M,,15,16,
+18,Tyrese Vuthy,OU,14/04/2008,M,,15,16,
+19,Ponnorraks,OU,26/10/1985,M,,10,9,
+20,Anna,HUYNH,18/05/1987,F,,,,
+21,Ariyan Van,OU,22/06/2017,M,,19,20,
+22,Arrow Seth,OU,16/03/2020,M,,19,20,
+23,Narith,LIM,05/03/1955,F,,8,7,
+24,Sokhom,SVAY,04/02/1962,M,,,,
+25,Marra,LIM,16/07/1984,M,,23,24,
+26,Riana,,26/04/1985,F,,,,
+27,Bryson Kuch,LIM,04/01/2019,M,,25,26,
+28,Kelsey,LIM,,F,,25,26,
+29,Marra's kid,,,F,,25,26,
+30,Alyce,LIM,04/11/1992,F,,23,24,
+31,David,,,M,,,,
+32,Alyce's kid,,,,,31,30,
+33,Sophia,LIM,22/08/1997,F,,23,24,
+34,Narong,LIM,04/06/1957,M,,8,7,
+35,Phy Ly,YIN,10/05/1966,F,,,,
+36,Emily Sonita,LIM,03/08/1988,F,,34,35,
+37,Jaime,,,M,,,,
+38,Claire,,02/22/2015,F,,37,36,
+39,Zoe,,30/09/2017,F,,37,36,
+40,Steven Emeron,LIM,26/11/1992,M,,34,35,
+41,Aimee,VO,03/08/1994,F,,,,
+42,Patrick Derrek,LIM,17/04/1996,M,,34,35,
+43,Phary,LIM,,F,,8,7,
+44,Sambath,KHUM,,M,,,,
+45,Paul,KHUM,1984,M,,44,43,
+46,Wylina,KHUM,13/08/1986,F,,44,43,
+47,Tuan,DUONG,,M,,,,
+48,Chloe Anh,DUONG,23/08/2021,F,,47,46,
+49,William,KHUM,,M,,44,43,
+50,Amy,KHUM,,F,,44,43,
+51,Samedi,LIM,04/11/1961,F,,8,7,
+52,Chamroeun Peng Lim,SO,01/01/1956,M,,,,
+53,Erica Sarika,SO,17/04/1985,F,,52,51,
+54,Eric,LU,,M,,,,
+55,Elijah,LU,19/12/2018,M,,54,53,
+56,Everly,LU,03/02/2021,F,,54,53,
+57,Victerry,SO,29/06/1988,M,,52,51,
+58,Jeudi,LIM-SON,03/10/1965,F,,8,7,
+59,Lanh,SON,23/06/1949,M,,,,
+60,Khemarint,SON,26/11/1987,M,,59,58,
+61,Boisan,LAM,26/08/1987,F,,,,
+62,Celeste,,,F,,60,61,
+63,Amanda,SON,01/01/1992,F,,59,58,
+64,Zack,,,M,,,,
+65,Zara,,,F,,64,63,
+66,Thary,LIM,,F,,8,7,
+67,Proeung Lip,UNG,,M,,,,
+68,Belinda,UNG,31/12/1987,F,,67,66,
+69,Belinda's partner,,,M,,,,
+70,Belinda's kid,,,,,69,68,
+71,Melanie,UNG,15/04/1994,F,,67,66,72
+72,Deakin,,,M,,,,71
