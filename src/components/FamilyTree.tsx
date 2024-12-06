@@ -4,7 +4,7 @@ import React, { useEffect } from "react";
 import f3 from "family-chart";
 import "family-chart/styles/family-chart.css";
 import csv from "../assets/family-members.csv";
-import { transformCsvToD3Data } from "../lib/transformations.js";
+import { transformCsvToD3Data } from "../utils/transformations.js";
 
 const FamilyTree = () => {
   useEffect(() => {
