@@ -12,6 +12,41 @@ const FamilyTree = () => {
       return;
     }
 
+    const data = transformCsvToD3Data(csv);
+
+    // const f3Chart = f3
+    //   .createChart("#FamilyChart", data)
+    //   .setTransitionTime(1000)
+    //   .setCardXSpacing(250)
+    //   .setCardYSpacing(150);
+
+    // const f3Card = f3Chart
+    //   .setCard(f3.CardHtml)
+    //   .setCardDisplay([["first name", "last name"], ["birthday"]])
+    //   .setCardDim({})
+    //   .setMiniTree(true)
+    //   .setStyle("imageRect")
+    //   .setOnHoverPathToMain();
+
+    // const f3EditTree = f3Chart
+    //   .editTree()
+    //   .fixed(true)
+    //   .setFields(["first name", "last name", "birthday"])
+    //   .setEditFirst(true);
+
+    // f3EditTree.setNoEdit();
+
+    // f3Card.setOnCardClick((e, d) => {
+    //   f3EditTree.open(d);
+    //   if (f3EditTree.isAddingRelative()) return;
+    //   f3Card.onCardClickDefault(e, d);
+    // });
+
+    // f3Chart.updateTree({ initial: true });
+    // f3EditTree.open(f3Chart.getMainDatum());
+
+    // f3Chart.updateTree({ initial: true });
+
     const store = f3.createStore({
       data: transformCsvToD3Data(csv),
       node_separation: 250,
@@ -38,6 +73,7 @@ const FamilyTree = () => {
       mini_tree: true,
       link_break: false,
     });
+
     store.setOnUpdate((props) =>
       f3.view(store.getTree(), svg, Card, props || {})
     );
