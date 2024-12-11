@@ -42,15 +42,9 @@ const FamilyTree = () => {
 
   return (
     <div
-      className="f3"
+      className="f3 f3-cont"
       id="FamilyChart"
-      style={{
-        width: "100%",
-        height: `${window.screen.height}px`,
-        margin: "auto",
-        backgroundColor: "rgb(33,33,33)",
-        color: "#fff",
-      }}
+      style={{ minHeight: "100vh" }}
     />
   );
 };
